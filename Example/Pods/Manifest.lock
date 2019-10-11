@@ -1,16 +1,16 @@
 PODS:
-  - demo (0.1.0)
+  - STransition (0.1.0)
 
 DEPENDENCIES:
-  - demo (from `../`)
+  - STransition (from `../`)
 
 EXTERNAL SOURCES:
-  demo:
+  STransition:
     :path: "../"
 
 SPEC CHECKSUMS:
-  demo: d7d656de30ec9b4dbb53ef42b113c84557e9ebc5
+  STransition: 874b82e87887b0d148ee01df9bd7376afa21d905
 
-PODFILE CHECKSUM: 11e890fd3610e97199eefec498491e703945b7f3
+PODFILE CHECKSUM: ca3aafcd275f61615b544831626090f8421a5183
 
 COCOAPODS: 1.7.5

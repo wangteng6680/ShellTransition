@@ -1,0 +1,6 @@
+framework module STransition {
+  umbrella header "STransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
