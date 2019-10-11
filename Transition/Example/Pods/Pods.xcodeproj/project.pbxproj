@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CD8309D9E9A44A4586AAFC5C0539040 /* WTColorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 11AA8B6A1AC1FE23BABBF5B533B5CD1E /* WTColorConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D6B73F13116804391690559B5407FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		14D875E9DE19A4B98B2094E6F2649458 /* Pods-Transition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D091F09E8CD3C447B6D4C90693C3A80F /* Pods-Transition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		17D0D15796100AD7373C877C1EE42680 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DC56C7498A9105CDC05C78284EE0E983 /* ReplaceMe.m */; };
 		1F99C1D4016DD2C49039023A2E01B5BB /* Transition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C49D279B09131D5DB12E35BB261EDD /* Transition-dummy.m */; };
 		3B889244C478685D39CD958B5A4D91F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		498D51C26D06A31664BF6677F95EEE4C /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDBA34B7894AFD6DE3E50A0537C1435B /* TransitionManager.m */; };
 		4AF5BA88513A4AABE273898B34EA5B94 /* Pods-Transition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B2515B31771F59E2A8DF7EF0CF307 /* Pods-Transition_Tests-dummy.m */; };
 		532FC7DD408FE15A651634D8C6573163 /* Transition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC9F196EBDF983A73E9243548D43F66D /* Transition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A4BE5B6891B9A2D15826557EA32EDC6 /* UIResponder+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7CB0590125D97511E9F40A638A3C9A /* UIResponder+Color.m */; };
 		71109A3534FE42C2B13A0C3377B8B9E2 /* Pods-Transition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF41A9EED1FC068521DEC30346FA06 /* Pods-Transition_Example-dummy.m */; };
-		95A6EAB1BF2E56527DBB0594FD102F3B /* TransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A95DD4BA29CB8E15BF5D926164344D /* TransitionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1B0F21F8741FAA6DD6274D143B120E4 /* Pods-Transition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89E14382E1649C63A1A20BE8509F4C90 /* Pods-Transition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2F71A3564265C93A45543BECB94C14E /* SPColorKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EB987279419871970587AA8DB4C3A4A2 /* SPColorKey.m */; };
-		F45CCC5FA92A9B09E2B14CD580592E3B /* SPColorKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BAD453C73E0222265DECC3D2010AA7 /* SPColorKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC45272D235020E200370E73 /* TransitionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CC452725235020E200370E73 /* TransitionManager.h */; };
+		CC45272E235020E200370E73 /* WTColorConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CC452726235020E200370E73 /* WTColorConfig.h */; };
+		CC45272F235020E200370E73 /* SPColorKey.h in Headers */ = {isa = PBXBuildFile; fileRef = CC452727235020E200370E73 /* SPColorKey.h */; };
+		CC452730235020E200370E73 /* UIResponder+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = CC452728235020E200370E73 /* UIResponder+Color.h */; };
+		CC452731235020E200370E73 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = CC452729235020E200370E73 /* .gitkeep */; };
+		CC452732235020E200370E73 /* TransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45272A235020E200370E73 /* TransitionManager.m */; };
+		CC452733235020E200370E73 /* SPColorKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45272B235020E200370E73 /* SPColorKey.m */; };
+		CC452734235020E200370E73 /* UIResponder+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CC45272C235020E200370E73 /* UIResponder+Color.m */; };
 		F750700AE8CFB277E0879114F69E1CBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FBE33BB6B7E53A1E3A79D5DF98D3816C /* UIResponder+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EB9334327A7B74DD366E882360D0EA /* UIResponder+Color.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,44 +44,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11AA8B6A1AC1FE23BABBF5B533B5CD1E /* WTColorConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WTColorConfig.h; path = Transition/Classes/WTColorConfig.h; sourceTree = "<group>"; };
 		1490107B0C27A11C78BD5E16802F87C0 /* Transition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transition.xcconfig; sourceTree = "<group>"; };
-		1AE1111AF27C371226894425553F53E8 /* Pods_Transition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Transition_Tests.framework; path = "Pods-Transition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		27EB9334327A7B74DD366E882360D0EA /* UIResponder+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIResponder+Color.h"; path = "Transition/Classes/UIResponder+Color.h"; sourceTree = "<group>"; };
-		28DAEB02261571F7EB26E601CB23EDE6 /* Transition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Transition.framework; path = Transition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AE1111AF27C371226894425553F53E8 /* Pods_Transition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DAEB02261571F7EB26E601CB23EDE6 /* Transition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37BAD453C73E0222265DECC3D2010AA7 /* SPColorKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPColorKey.h; path = Transition/Classes/SPColorKey.h; sourceTree = "<group>"; };
-		4813160C226367149A436BC12DD4BE5B /* Pods_Transition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Transition_Example.framework; path = "Pods-Transition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4813160C226367149A436BC12DD4BE5B /* Pods_Transition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D6CF19662EFD1DE675F620C4694F02 /* Pods-Transition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		60D4B5E9D198493EB6E14361D48B4081 /* Pods-Transition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Transition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F53258298B6E652F0A3B87EE06C13E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6F53258298B6E652F0A3B87EE06C13E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6F7B2515B31771F59E2A8DF7EF0CF307 /* Pods-Transition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transition_Tests-dummy.m"; sourceTree = "<group>"; };
-		79452622FBD5ED3FC03275547B960195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		79452622FBD5ED3FC03275547B960195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7AAD55C6F7330DA1A82E13D201135C56 /* Pods-Transition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BA176A8835E8DAF9AA3BD9D183496A4 /* Transition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transition-prefix.pch"; sourceTree = "<group>"; };
-		8586D461F7A2B2FEBCA974D8897D3DC7 /* Transition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Transition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8586D461F7A2B2FEBCA974D8897D3DC7 /* Transition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Transition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		89E14382E1649C63A1A20BE8509F4C90 /* Pods-Transition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transition_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8A6D28D14A88AD38F7AC57B5A31BD52A /* Pods-Transition_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transition_Example-Info.plist"; sourceTree = "<group>"; };
 		97EDB46741C31302704A3349D2877DDA /* Transition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Transition.modulemap; sourceTree = "<group>"; };
 		9B2C9B5FBD32D085D68561300EF9CCB6 /* Pods-Transition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9C9A5419F506A23C8E184958C6FABB10 /* Pods-Transition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Transition_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DAF41A9EED1FC068521DEC30346FA06 /* Pods-Transition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transition_Example-dummy.m"; sourceTree = "<group>"; };
-		A2A95DD4BA29CB8E15BF5D926164344D /* TransitionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransitionManager.h; path = Transition/Classes/TransitionManager.h; sourceTree = "<group>"; };
 		B1C49D279B09131D5DB12E35BB261EDD /* Transition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Transition-dummy.m"; sourceTree = "<group>"; };
 		B8513AF9917CD7321F9219FA16DD276F /* Transition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Transition-Info.plist"; sourceTree = "<group>"; };
-		BF7CB0590125D97511E9F40A638A3C9A /* UIResponder+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIResponder+Color.m"; path = "Transition/Classes/UIResponder+Color.m"; sourceTree = "<group>"; };
 		C5BA9561B39A0020D2F495C91F2AD2B8 /* Pods-Transition_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transition_Tests-Info.plist"; sourceTree = "<group>"; };
 		C5C28596BC4EAAE5EEAA34167C080987 /* Pods-Transition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Transition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CC452725235020E200370E73 /* TransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionManager.h; sourceTree = "<group>"; };
+		CC452726235020E200370E73 /* WTColorConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTColorConfig.h; sourceTree = "<group>"; };
+		CC452727235020E200370E73 /* SPColorKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPColorKey.h; sourceTree = "<group>"; };
+		CC452728235020E200370E73 /* UIResponder+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Color.h"; sourceTree = "<group>"; };
+		CC452729235020E200370E73 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		CC45272A235020E200370E73 /* TransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionManager.m; sourceTree = "<group>"; };
+		CC45272B235020E200370E73 /* SPColorKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPColorKey.m; sourceTree = "<group>"; };
+		CC45272C235020E200370E73 /* UIResponder+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Color.m"; sourceTree = "<group>"; };
 		D091F09E8CD3C447B6D4C90693C3A80F /* Pods-Transition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transition_Example-umbrella.h"; sourceTree = "<group>"; };
-		DC56C7498A9105CDC05C78284EE0E983 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Transition/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E16637F86BE22FB7F4655031D477C6EA /* Pods-Transition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transition_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA8FB7E28305558914FC6AEDD6693A2A /* Pods-Transition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB987279419871970587AA8DB4C3A4A2 /* SPColorKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPColorKey.m; path = Transition/Classes/SPColorKey.m; sourceTree = "<group>"; };
 		EC9F196EBDF983A73E9243548D43F66D /* Transition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transition-umbrella.h"; sourceTree = "<group>"; };
 		EF08DC4BA2D84CC8A98E6E268E383EB3 /* Pods-Transition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F47F0423B6D1C65EE03B74E426E439B4 /* Pods-Transition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Transition_Example.modulemap"; sourceTree = "<group>"; };
-		FDBA34B7894AFD6DE3E50A0537C1435B /* TransitionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransitionManager.m; path = Transition/Classes/TransitionManager.m; sourceTree = "<group>"; };
 		FFAF0B5D497E9CA0E81B1E2108F8B076 /* Pods-Transition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -190,14 +190,7 @@
 		A94C9A79FB930BBDD6BD208C9F9B1742 /* Transition */ = {
 			isa = PBXGroup;
 			children = (
-				DC56C7498A9105CDC05C78284EE0E983 /* ReplaceMe.m */,
-				37BAD453C73E0222265DECC3D2010AA7 /* SPColorKey.h */,
-				EB987279419871970587AA8DB4C3A4A2 /* SPColorKey.m */,
-				A2A95DD4BA29CB8E15BF5D926164344D /* TransitionManager.h */,
-				FDBA34B7894AFD6DE3E50A0537C1435B /* TransitionManager.m */,
-				27EB9334327A7B74DD366E882360D0EA /* UIResponder+Color.h */,
-				BF7CB0590125D97511E9F40A638A3C9A /* UIResponder+Color.m */,
-				11AA8B6A1AC1FE23BABBF5B533B5CD1E /* WTColorConfig.h */,
+				CC452724235020E200370E73 /* Classes */,
 				1605163A7D8451C890B187CC0FE67A92 /* Pod */,
 				85C90FF2CCF34B22317C07615F1DFC47 /* Support Files */,
 			);
@@ -221,6 +214,22 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC452724235020E200370E73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC452725235020E200370E73 /* TransitionManager.h */,
+				CC452726235020E200370E73 /* WTColorConfig.h */,
+				CC452727235020E200370E73 /* SPColorKey.h */,
+				CC452728235020E200370E73 /* UIResponder+Color.h */,
+				CC452729235020E200370E73 /* .gitkeep */,
+				CC45272A235020E200370E73 /* TransitionManager.m */,
+				CC45272B235020E200370E73 /* SPColorKey.m */,
+				CC45272C235020E200370E73 /* UIResponder+Color.m */,
+			);
+			name = Classes;
+			path = Transition/Classes;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -249,11 +258,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F45CCC5FA92A9B09E2B14CD580592E3B /* SPColorKey.h in Headers */,
+				CC45272D235020E200370E73 /* TransitionManager.h in Headers */,
 				532FC7DD408FE15A651634D8C6573163 /* Transition-umbrella.h in Headers */,
-				95A6EAB1BF2E56527DBB0594FD102F3B /* TransitionManager.h in Headers */,
-				FBE33BB6B7E53A1E3A79D5DF98D3816C /* UIResponder+Color.h in Headers */,
-				0CD8309D9E9A44A4586AAFC5C0539040 /* WTColorConfig.h in Headers */,
+				CC45272F235020E200370E73 /* SPColorKey.h in Headers */,
+				CC452730235020E200370E73 /* UIResponder+Color.h in Headers */,
+				CC45272E235020E200370E73 /* WTColorConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC452731235020E200370E73 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,11 +415,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D0D15796100AD7373C877C1EE42680 /* ReplaceMe.m in Sources */,
-				F2F71A3564265C93A45543BECB94C14E /* SPColorKey.m in Sources */,
 				1F99C1D4016DD2C49039023A2E01B5BB /* Transition-dummy.m in Sources */,
-				498D51C26D06A31664BF6677F95EEE4C /* TransitionManager.m in Sources */,
-				5A4BE5B6891B9A2D15826557EA32EDC6 /* UIResponder+Color.m in Sources */,
+				CC452733235020E200370E73 /* SPColorKey.m in Sources */,
+				CC452732235020E200370E73 /* TransitionManager.m in Sources */,
+				CC452734235020E200370E73 /* UIResponder+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,8 +527,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
