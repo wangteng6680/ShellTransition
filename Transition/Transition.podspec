@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/teng.wang.o/Transition'
+  s.homepage         = 'https://github.com/wangteng6680/ShellTransition.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'teng.wang.o' => 'teng.wang.o@nio.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Transition/Classes/ShellTransition/**/*'
+  s.source_files = 'Transition/Classes/ShellTransition/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'Transition' => ['Transition/Assets/*.png']
