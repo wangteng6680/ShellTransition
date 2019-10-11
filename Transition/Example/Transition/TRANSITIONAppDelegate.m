@@ -8,6 +8,7 @@
 
 #import "TRANSITIONAppDelegate.h"
 #import <Transition/TransitionManager.h>
+
 @implementation TRANSITIONAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

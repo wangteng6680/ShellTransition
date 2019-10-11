@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Transition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Transition.'
+  s.summary          = 'Transition.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Transition/Classes/ShellTransition/*.{h,m}'
+  s.source_files = 'Transition/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'Transition' => ['Transition/Assets/*.png']
